@@ -11,7 +11,40 @@
 		EA303BD929E75A2F000F20D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA303BD829E75A2F000F20D5 /* ContentView.swift */; };
 		EA303BDB29E75A31000F20D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA303BDA29E75A31000F20D5 /* Assets.xcassets */; };
 		EA303BDE29E75A31000F20D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA303BDD29E75A31000F20D5 /* Preview Assets.xcassets */; };
+		EAD9A39929EDED7F0024E4EE /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD9A39829EDED7F0024E4EE /* WidgetKit.framework */; };
+		EAD9A39B29EDED7F0024E4EE /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD9A39A29EDED7F0024E4EE /* SwiftUI.framework */; };
+		EAD9A39E29EDED7F0024E4EE /* WidgetologyWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD9A39D29EDED7F0024E4EE /* WidgetologyWidgetsBundle.swift */; };
+		EAD9A3A029EDED7F0024E4EE /* WidgetologyWidgetsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD9A39F29EDED7F0024E4EE /* WidgetologyWidgetsLiveActivity.swift */; };
+		EAD9A3A229EDED7F0024E4EE /* WidgetologyWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD9A3A129EDED7F0024E4EE /* WidgetologyWidgets.swift */; };
+		EAD9A3A529EDED800024E4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD9A3A429EDED800024E4EE /* Assets.xcassets */; };
+		EAD9A3A729EDED800024E4EE /* WidgetologyWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EAD9A3A329EDED7F0024E4EE /* WidgetologyWidgets.intentdefinition */; };
+		EAD9A3A829EDED800024E4EE /* WidgetologyWidgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EAD9A3A329EDED7F0024E4EE /* WidgetologyWidgets.intentdefinition */; };
+		EAD9A3AB29EDED800024E4EE /* WidgetologyWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EAD9A39629EDED7F0024E4EE /* WidgetologyWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAD9A3A929EDED800024E4EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA303BCB29E75A2F000F20D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD9A39529EDED7F0024E4EE;
+			remoteInfo = WidgetologyWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EAD9A3AC29EDED800024E4EE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EAD9A3AB29EDED800024E4EE /* WidgetologyWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		EA303BD329E75A2F000F20D5 /* Widgetology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Widgetology.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +52,15 @@
 		EA303BD829E75A2F000F20D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA303BDA29E75A31000F20D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA303BDD29E75A31000F20D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAD9A39629EDED7F0024E4EE /* WidgetologyWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetologyWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD9A39829EDED7F0024E4EE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		EAD9A39A29EDED7F0024E4EE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		EAD9A39D29EDED7F0024E4EE /* WidgetologyWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetologyWidgetsBundle.swift; sourceTree = "<group>"; };
+		EAD9A39F29EDED7F0024E4EE /* WidgetologyWidgetsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetologyWidgetsLiveActivity.swift; sourceTree = "<group>"; };
+		EAD9A3A129EDED7F0024E4EE /* WidgetologyWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetologyWidgets.swift; sourceTree = "<group>"; };
+		EAD9A3A329EDED7F0024E4EE /* WidgetologyWidgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WidgetologyWidgets.intentdefinition; sourceTree = "<group>"; };
+		EAD9A3A429EDED800024E4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAD9A3A629EDED800024E4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +71,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAD9A39329EDED7F0024E4EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD9A39B29EDED7F0024E4EE /* SwiftUI.framework in Frameworks */,
+				EAD9A39929EDED7F0024E4EE /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				EA303BD529E75A2F000F20D5 /* Widgetology */,
+				EAD9A39C29EDED7F0024E4EE /* WidgetologyWidgets */,
+				EAD9A39729EDED7F0024E4EE /* Frameworks */,
 				EA303BD429E75A2F000F20D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				EA303BD329E75A2F000F20D5 /* Widgetology.app */,
+				EAD9A39629EDED7F0024E4EE /* WidgetologyWidgetsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +121,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EAD9A39729EDED7F0024E4EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAD9A39829EDED7F0024E4EE /* WidgetKit.framework */,
+				EAD9A39A29EDED7F0024E4EE /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAD9A39C29EDED7F0024E4EE /* WidgetologyWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				EAD9A39D29EDED7F0024E4EE /* WidgetologyWidgetsBundle.swift */,
+				EAD9A39F29EDED7F0024E4EE /* WidgetologyWidgetsLiveActivity.swift */,
+				EAD9A3A129EDED7F0024E4EE /* WidgetologyWidgets.swift */,
+				EAD9A3A329EDED7F0024E4EE /* WidgetologyWidgets.intentdefinition */,
+				EAD9A3A429EDED800024E4EE /* Assets.xcassets */,
+				EAD9A3A629EDED800024E4EE /* Info.plist */,
+			);
+			path = WidgetologyWidgets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +153,34 @@
 				EA303BCF29E75A2F000F20D5 /* Sources */,
 				EA303BD029E75A2F000F20D5 /* Frameworks */,
 				EA303BD129E75A2F000F20D5 /* Resources */,
+				EAD9A3AC29EDED800024E4EE /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				EAD9A3AA29EDED800024E4EE /* PBXTargetDependency */,
 			);
 			name = Widgetology;
 			productName = Widgetology;
 			productReference = EA303BD329E75A2F000F20D5 /* Widgetology.app */;
 			productType = "com.apple.product-type.application";
+		};
+		EAD9A39529EDED7F0024E4EE /* WidgetologyWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD9A3AF29EDED800024E4EE /* Build configuration list for PBXNativeTarget "WidgetologyWidgetsExtension" */;
+			buildPhases = (
+				EAD9A39229EDED7F0024E4EE /* Sources */,
+				EAD9A39329EDED7F0024E4EE /* Frameworks */,
+				EAD9A39429EDED7F0024E4EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetologyWidgetsExtension;
+			productName = WidgetologyWidgetsExtension;
+			productReference = EAD9A39629EDED7F0024E4EE /* WidgetologyWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +193,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					EA303BD229E75A2F000F20D5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					EAD9A39529EDED7F0024E4EE = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -116,6 +214,7 @@
 			projectRoot = "";
 			targets = (
 				EA303BD229E75A2F000F20D5 /* Widgetology */,
+				EAD9A39529EDED7F0024E4EE /* WidgetologyWidgetsExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +229,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAD9A39429EDED7F0024E4EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD9A3A529EDED800024E4EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +245,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA303BD929E75A2F000F20D5 /* ContentView.swift in Sources */,
+				EAD9A3A829EDED800024E4EE /* WidgetologyWidgets.intentdefinition in Sources */,
 				EA303BD729E75A2F000F20D5 /* WidgetologyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAD9A39229EDED7F0024E4EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD9A39E29EDED7F0024E4EE /* WidgetologyWidgetsBundle.swift in Sources */,
+				EAD9A3A729EDED800024E4EE /* WidgetologyWidgets.intentdefinition in Sources */,
+				EAD9A3A229EDED7F0024E4EE /* WidgetologyWidgets.swift in Sources */,
+				EAD9A3A029EDED7F0024E4EE /* WidgetologyWidgetsLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAD9A3AA29EDED800024E4EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAD9A39529EDED7F0024E4EE /* WidgetologyWidgetsExtension */;
+			targetProxy = EAD9A3A929EDED800024E4EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EA303BDF29E75A31000F20D5 /* Debug */ = {
@@ -262,6 +389,7 @@
 		EA303BE229E75A31000F20D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +419,7 @@
 		EA303BE329E75A31000F20D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +446,60 @@
 			};
 			name = Release;
 		};
+		EAD9A3AD29EDED800024E4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WS7NLP525J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetologyWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetologyWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pine.Widgetology.WidgetologyWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAD9A3AE29EDED800024E4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WS7NLP525J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetologyWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetologyWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pine.Widgetology.WidgetologyWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +517,15 @@
 			buildConfigurations = (
 				EA303BE229E75A31000F20D5 /* Debug */,
 				EA303BE329E75A31000F20D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD9A3AF29EDED800024E4EE /* Build configuration list for PBXNativeTarget "WidgetologyWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD9A3AD29EDED800024E4EE /* Debug */,
+				EAD9A3AE29EDED800024E4EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
